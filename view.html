@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HotRestaurant - Reservations</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Low Cal Calzone Zone</h1>
+        <h3>Make a Reservation!</h3>
+        <hr />
+        <a href="/add"
+          ><button class="btn btn-danger btn-lg">
+            <span class="fa fa-plus"></span> Create Reservation
+          </button></a
+        >
+        <!-- <a href="/api/characters"><button class="btn btn-danger btn-lg"><span
+            class="fa fa-eye"></span> All Characters</button></a> -->
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3><strong>Current Reservations</strong></h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h2 id="name"></h2>
+              <div id="stats">
+                <h3><strong>Time:</strong> <span id="role"></span></h3>
+                <h3><strong>Party Size:</strong> <span id="age"></span></h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3><strong>Current Wait List</strong></h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h2 id="name"></h2>
+              <div id="stats">
+                <h3><strong>Time:</strong> <span id="role"></span></h3>
+                <h3><strong>Party Size:</strong> <span id="age"></span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
